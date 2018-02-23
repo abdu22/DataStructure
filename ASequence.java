@@ -9,7 +9,9 @@ public class ASequence extends AVector implements ISequence {
     // List Methods (Vector methods are inherited)
 
     public Position first() {
-        return atRank(0);
+        return atRank(0); 
+		
+		asdfasd;
     }
     public Position last() {
         return atRank(this.size()-1);
